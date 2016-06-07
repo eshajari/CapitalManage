@@ -101,6 +101,9 @@
 		AE4A6C1A1D055221008E653C /* CapitalManage */ = {
 			isa = PBXGroup;
 			children = (
+				AEA2C2F51D068E4F00D96EE4 /* Controller */,
+				AEA2C2F61D068E4F00D96EE4 /* Modal */,
+				AEA2C2F71D068E4F00D96EE4 /* View */,
 				AE4A6C1E1D055221008E653C /* AppDelegate.h */,
 				AE4A6C1F1D055221008E653C /* AppDelegate.m */,
 				AE4A6C211D055221008E653C /* ViewController.h */,
@@ -138,6 +141,27 @@
 				AE4A6C421D055221008E653C /* Info.plist */,
 			);
 			path = CapitalManageUITests;
+			sourceTree = "<group>";
+		};
+		AEA2C2F51D068E4F00D96EE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEA2C2F61D068E4F00D96EE4 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		AEA2C2F71D068E4F00D96EE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -501,6 +525,7 @@
 				AE4A6C471D055221008E653C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE4A6C481D055221008E653C /* Build configuration list for PBXNativeTarget "CapitalManageTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +534,7 @@
 				AE4A6C4A1D055221008E653C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE4A6C4B1D055221008E653C /* Build configuration list for PBXNativeTarget "CapitalManageUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +543,7 @@
 				AE4A6C4D1D055221008E653C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
