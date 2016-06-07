@@ -15,6 +15,16 @@
 		AE4A6C2B1D055221008E653C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4A6C291D055221008E653C /* LaunchScreen.storyboard */; };
 		AE4A6C361D055221008E653C /* CapitalManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6C351D055221008E653C /* CapitalManageTests.m */; };
 		AE4A6C411D055221008E653C /* CapitalManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6C401D055221008E653C /* CapitalManageUITests.m */; };
+		AEA2C2FB1D06916200D96EE4 /* DashBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C2FA1D06916200D96EE4 /* DashBoardVC.m */; };
+		AEA2C2FE1D06938000D96EE4 /* InvestmentBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C2FD1D06938000D96EE4 /* InvestmentBaseVC.m */; };
+		AEA2C3011D06939D00D96EE4 /* IncomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3001D06939D00D96EE4 /* IncomeVC.m */; };
+		AEA2C3041D0693AC00D96EE4 /* ExpenditureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3031D0693AC00D96EE4 /* ExpenditureVC.m */; };
+		AEA2C3071D0693CB00D96EE4 /* ReportbaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3061D0693CB00D96EE4 /* ReportbaseVC.m */; };
+		AEA2C30A1D0693D500D96EE4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3091D0693D500D96EE4 /* BaseViewController.m */; };
+		AEA2C3171D0693EC00D96EE4 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C30F1D0693EC00D96EE4 /* MMDrawerBarButtonItem.m */; };
+		AEA2C3181D0693EC00D96EE4 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3121D0693EC00D96EE4 /* MMDrawerController.m */; };
+		AEA2C3191D0693EC00D96EE4 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3141D0693EC00D96EE4 /* MMDrawerVisualState.m */; };
+		AEA2C31A1D0693EC00D96EE4 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3161D0693EC00D96EE4 /* UIViewController+MMDrawerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +47,10 @@
 /* Begin PBXFileReference section */
 		AE4A6C181D055221008E653C /* CapitalManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapitalManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4A6C1C1D055221008E653C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE4A6C1E1D055221008E653C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE4A6C1F1D055221008E653C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE4A6C211D055221008E653C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE4A6C221D055221008E653C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE4A6C1E1D055221008E653C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		AE4A6C1F1D055221008E653C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		AE4A6C211D055221008E653C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		AE4A6C221D055221008E653C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		AE4A6C251D055221008E653C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE4A6C271D055221008E653C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4A6C2A1D055221008E653C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,28 @@
 		AE4A6C3C1D055221008E653C /* CapitalManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4A6C401D055221008E653C /* CapitalManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapitalManageUITests.m; sourceTree = "<group>"; };
 		AE4A6C421D055221008E653C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA2C2F91D06916200D96EE4 /* DashBoardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardVC.h; sourceTree = "<group>"; };
+		AEA2C2FA1D06916200D96EE4 /* DashBoardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardVC.m; sourceTree = "<group>"; };
+		AEA2C2FC1D06938000D96EE4 /* InvestmentBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestmentBaseVC.h; sourceTree = "<group>"; };
+		AEA2C2FD1D06938000D96EE4 /* InvestmentBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestmentBaseVC.m; sourceTree = "<group>"; };
+		AEA2C2FF1D06939D00D96EE4 /* IncomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomeVC.h; sourceTree = "<group>"; };
+		AEA2C3001D06939D00D96EE4 /* IncomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomeVC.m; sourceTree = "<group>"; };
+		AEA2C3021D0693AC00D96EE4 /* ExpenditureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenditureVC.h; sourceTree = "<group>"; };
+		AEA2C3031D0693AC00D96EE4 /* ExpenditureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenditureVC.m; sourceTree = "<group>"; };
+		AEA2C3051D0693CB00D96EE4 /* ReportbaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportbaseVC.h; sourceTree = "<group>"; };
+		AEA2C3061D0693CB00D96EE4 /* ReportbaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportbaseVC.m; sourceTree = "<group>"; };
+		AEA2C3081D0693D500D96EE4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AEA2C3091D0693D500D96EE4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AEA2C30E1D0693EC00D96EE4 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		AEA2C30F1D0693EC00D96EE4 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		AEA2C3101D0693EC00D96EE4 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		AEA2C3111D0693EC00D96EE4 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		AEA2C3121D0693EC00D96EE4 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		AEA2C3131D0693EC00D96EE4 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		AEA2C3141D0693EC00D96EE4 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		AEA2C3151D0693EC00D96EE4 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		AEA2C3161D0693EC00D96EE4 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		AEA2C31D1D06967E00D96EE4 /* CapitalManage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CapitalManage-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,16 +133,10 @@
 		AE4A6C1A1D055221008E653C /* CapitalManage */ = {
 			isa = PBXGroup;
 			children = (
+				AEA2C31C1D06943E00D96EE4 /* Views */,
+				AEA2C30B1D0693EC00D96EE4 /* Modals */,
 				AEA2C2F81D068F3500D96EE4 /* Controller */,
-				AE4A6C1E1D055221008E653C /* AppDelegate.h */,
-				AE4A6C1F1D055221008E653C /* AppDelegate.m */,
-				AE4A6C211D055221008E653C /* ViewController.h */,
-				AE4A6C221D055221008E653C /* ViewController.m */,
-				AE4A6C241D055221008E653C /* Main.storyboard */,
-				AE4A6C271D055221008E653C /* Assets.xcassets */,
-				AE4A6C291D055221008E653C /* LaunchScreen.storyboard */,
-				AE4A6C2C1D055221008E653C /* Info.plist */,
-				AE4A6C1B1D055221008E653C /* Supporting Files */,
+				AEA2C31B1D06940100D96EE4 /* Resource */,
 			);
 			path = CapitalManage;
 			sourceTree = "<group>";
@@ -144,8 +170,76 @@
 		AEA2C2F81D068F3500D96EE4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AE4A6C1E1D055221008E653C /* AppDelegate.h */,
+				AE4A6C1F1D055221008E653C /* AppDelegate.m */,
+				AEA2C3081D0693D500D96EE4 /* BaseViewController.h */,
+				AEA2C3091D0693D500D96EE4 /* BaseViewController.m */,
+				AEA2C2F91D06916200D96EE4 /* DashBoardVC.h */,
+				AEA2C2FA1D06916200D96EE4 /* DashBoardVC.m */,
+				AEA2C3021D0693AC00D96EE4 /* ExpenditureVC.h */,
+				AEA2C3031D0693AC00D96EE4 /* ExpenditureVC.m */,
+				AEA2C2FF1D06939D00D96EE4 /* IncomeVC.h */,
+				AEA2C3001D06939D00D96EE4 /* IncomeVC.m */,
+				AEA2C2FC1D06938000D96EE4 /* InvestmentBaseVC.h */,
+				AEA2C2FD1D06938000D96EE4 /* InvestmentBaseVC.m */,
+				AEA2C3051D0693CB00D96EE4 /* ReportbaseVC.h */,
+				AEA2C3061D0693CB00D96EE4 /* ReportbaseVC.m */,
+				AE4A6C211D055221008E653C /* ViewController.h */,
+				AE4A6C221D055221008E653C /* ViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEA2C30B1D0693EC00D96EE4 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				AEA2C30C1D0693EC00D96EE4 /* LIBS */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		AEA2C30C1D0693EC00D96EE4 /* LIBS */ = {
+			isa = PBXGroup;
+			children = (
+				AEA2C30D1D0693EC00D96EE4 /* MMDrawerController */,
+			);
+			path = LIBS;
+			sourceTree = "<group>";
+		};
+		AEA2C30D1D0693EC00D96EE4 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				AEA2C30E1D0693EC00D96EE4 /* MMDrawerBarButtonItem.h */,
+				AEA2C30F1D0693EC00D96EE4 /* MMDrawerBarButtonItem.m */,
+				AEA2C3101D0693EC00D96EE4 /* MMDrawerController+Subclass.h */,
+				AEA2C3111D0693EC00D96EE4 /* MMDrawerController.h */,
+				AEA2C3121D0693EC00D96EE4 /* MMDrawerController.m */,
+				AEA2C3131D0693EC00D96EE4 /* MMDrawerVisualState.h */,
+				AEA2C3141D0693EC00D96EE4 /* MMDrawerVisualState.m */,
+				AEA2C3151D0693EC00D96EE4 /* UIViewController+MMDrawerController.h */,
+				AEA2C3161D0693EC00D96EE4 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		AEA2C31B1D06940100D96EE4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6C271D055221008E653C /* Assets.xcassets */,
+				AE4A6C2C1D055221008E653C /* Info.plist */,
+				AE4A6C1B1D055221008E653C /* Supporting Files */,
+				AEA2C31D1D06967E00D96EE4 /* CapitalManage-Prefix.pch */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		AEA2C31C1D06943E00D96EE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6C241D055221008E653C /* Main.storyboard */,
+				AE4A6C291D055221008E653C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +373,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA2C3191D0693EC00D96EE4 /* MMDrawerVisualState.m in Sources */,
 				AE4A6C231D055221008E653C /* ViewController.m in Sources */,
+				AEA2C30A1D0693D500D96EE4 /* BaseViewController.m in Sources */,
+				AEA2C3071D0693CB00D96EE4 /* ReportbaseVC.m in Sources */,
+				AEA2C3181D0693EC00D96EE4 /* MMDrawerController.m in Sources */,
+				AEA2C3041D0693AC00D96EE4 /* ExpenditureVC.m in Sources */,
+				AEA2C2FB1D06916200D96EE4 /* DashBoardVC.m in Sources */,
+				AEA2C2FE1D06938000D96EE4 /* InvestmentBaseVC.m in Sources */,
+				AEA2C3011D06939D00D96EE4 /* IncomeVC.m in Sources */,
+				AEA2C31A1D0693EC00D96EE4 /* UIViewController+MMDrawerController.m in Sources */,
+				AEA2C3171D0693EC00D96EE4 /* MMDrawerBarButtonItem.m in Sources */,
 				AE4A6C201D055221008E653C /* AppDelegate.m in Sources */,
 				AE4A6C1D1D055221008E653C /* main.m in Sources */,
 			);
@@ -323,6 +427,7 @@
 				AE4A6C251D055221008E653C /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		AE4A6C291D055221008E653C /* LaunchScreen.storyboard */ = {
@@ -331,6 +436,7 @@
 				AE4A6C2A1D055221008E653C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,6 +469,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "CapitalManage/CapitalManage-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -405,6 +512,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "CapitalManage/CapitalManage-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
